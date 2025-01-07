@@ -1,5 +1,5 @@
 # SwarmForChinese
-openai 的swarm 用于大陆环境
+openai 的swarm 用于大陆环境，可以用deepseek qwen的api
 
 ![Swarm Logo](assets/logo.png)
 
