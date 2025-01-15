@@ -222,7 +222,7 @@ class Swarm:
                 stream=True,
                 debug=debug,
             )
-
+            print(completion，"會打印嗎~~~~")
             yield {"delim": "start"}
             for chunk in completion:
                 if not chunk.choices:  # 添加安全检查
