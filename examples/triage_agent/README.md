@@ -1,4 +1,8 @@
 # Triage agent
+这是分诊代理
+分诊代理可以调用两个功能：
+转移到销售代理（transfer_to_sales）。
+转移到退款代理（transfer_to_refunds）
 
 This example is a Swarm containing a triage agent, which takes in user inputs and chooses whether to respond directly, or triage the request
 to a sales or refunds agent.

@@ -1,4 +1,8 @@
 # Support bot
+该代码实现了一个多功能的用户支持系统，通过分层代理的方式处理用户请求：
+
+用户界面代理作为入口，分流请求。
+帮助中心代理提供更具体的支持服务。 此外，通过向量化搜索功能，系统可以快速查找与用户查询相关的知识库内容。
 
 This example is a customer service bot which includes a user interface agent and a help center agent with several tools.
 This example uses the helper function `run_demo_loop`, which allows us to create an interactive Swarm session.
